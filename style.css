@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+}
+
+a img{
+    width: 50px;
+}
+
+input{
+    style="position: absolute; 
+    top:2%; 
+    left: 50%; 
+    height: 3%; 
+    width: 40%;"
+}

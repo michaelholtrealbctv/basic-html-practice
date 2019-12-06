@@ -8,23 +8,44 @@
     <title>Document</title>
 </head>
 <body>
-    <header style="background-color: #c1c1c1;">
-        <section>
-            <a href="./img/mockup1.jpg" alt="back button">
-                <img src="./img/left.png" alt="Back Button" />
-            </a>
-            <a href="./img/mockup1.jpg" alt="back button">
-                    <img src="./img/right.png" alt="Forward Button" />
-            </a>
-            <a href="./img/mockup1.jpg" alt="back button">
-                <img src="./img/cancel.png" alt="Cancel Button" />
-            </a>
-            <a href="./img/mockup1.jpg" alt="back button">
-                        <img src="./img/house.png" alt="Home Button" />
-            </a>            
-            <input type="text" id="SearchInput">
-        </section>
-    </header>
+    <table width="50%">
+            <tr>
+                <th style="text-align:center" 
+                    colspan="6" 
+                    bgcolor="#c1c1c1">My WebPage</th>
+            </tr>
+            <tr style="background-color: #c1c1c1;" >
+                <td><a href="./img/mockup1.jpg" alt="back button">
+                    <img src="./img/left.png" alt="Back Button" /></a></td>
+                <td><a href="./img/mockup1.jpg" alt="back button">
+                    <img src="./img/right.png" alt="Forward Button" /></a></td>
+                <td><a href="./img/mockup1.jpg" alt="back button">
+                    <img src="./img/cancel.png" alt="Cancel Button" /></a></td>
+                <td><a href="./img/mockup1.jpg" alt="back button">
+                    <img src="./img/house.png" alt="Home Button" /></a></td>
+                <td style="text-align: center;"><input style="text-align: center;" type="text" id="SearchInput"></td>
+                <td><form action="/action_page.php">
+                    <img src="./img/searchIcon.png" height="10" alt="Search Icon">
+                    <form method="get" action="http://google.com/search">
+                        <input type="text" name="q" required autofocus>
+                        <input type="submit" value="Google search">
+                        </form>
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="6" style="padding-top: 50px;">Galvanize Contact Information:</td>
+            </tr>
+            <tr>
+                <td style="padding-left: 10px;" colspan="6">Zubair: zubair.desai@galvanize.com</td> 
+            </tr>
+            <tr>
+                 <td style="padding-left: 10px;" colspan="6">Elie: elie@galvanize.com</td> 
+            </tr>
+            <tr>
+                 <td style="padding-left: 10px;" colspan="6">Matt: matt@galvanize.com</td> 
+            </tr>
+            <tfoot style="background-color: #c1c1c1;"></tfoot>
+    </table>    
 
 </body>
 </html>
